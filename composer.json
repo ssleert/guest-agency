@@ -1,0 +1,26 @@
+{
+    "name": "ssleert/guest-agency",
+    "description": "Guest Agency REST API",
+    "type": "project",
+    "require": {
+        "amphp/amp": "^3.0",
+        "amphp/http-server": "^3.3",
+        "monolog/monolog": "^3.8",
+        "amphp/log": "^2.0",
+        "amphp/http-server-router": "^2.0",
+        "giggsey/libphonenumber-for-php": "^8.13",
+        "amphp/mysql": "^3.0",
+        "ramsey/uuid": "^4.7",
+        "respect/validation": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuestAgency\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Ryabinkov"
+        }
+    ]
+}
